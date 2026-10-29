@@ -1,0 +1,15 @@
+name: noroflow
+description: Bağımlılık bırakma, nöral ağ farkındalığı ve Flow odak uygulaması.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3   # Yerel kalıcı veri (başlangıç tarihi, flow dakikaları)
+  audioplayers: ^6.0.0         # Flow modu ortam sesleri
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
